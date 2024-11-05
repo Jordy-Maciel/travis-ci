@@ -1,6 +1,7 @@
+dist: focal # versao unbumtu
 language: node_js
 node_js:
-  - "20"  # Mantem a versão do Node.js desejada
+  - "18"  # versao do node mais antiga suportada 
 
 cache:
   directories:
