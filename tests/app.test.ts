@@ -11,3 +11,7 @@ test('soma de -1 e 1 deve ser 0', () => {
 test('soma de 0 e 0 deve ser 0', () => {
     expect(soma(0, 0)).toBe(0);
 });
+
+test('soma de 50 e 70 deve ser 120', () => {
+    expect(soma(50, 70)).toBe(120);
+});
