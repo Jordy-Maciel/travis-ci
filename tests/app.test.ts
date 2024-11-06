@@ -14,4 +14,4 @@ test('soma de 0 e 0 deve ser 0', () => {
 
 test('soma de 50 e 70 deve ser 120', () => {
     expect(soma(50, 70)).toBe(120);
-});
+}); 
